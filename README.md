@@ -1,3 +1,47 @@
+# ProtégéVOWL – Community Maintained Release
+
+[![GitHub release](https://img.shields.io/github/v/release/yourusername/ProtegeVOWL?label=Latest%20Release)](https://github.com/yourusername/ProtegeVOWL/releases/latest)
+[![Build Status](https://github.com/yourusername/ProtegeVOWL/actions/workflows/maven.yml/badge.svg)](https://github.com/yourusername/ProtegeVOWL/actions)
+[![License](https://img.shields.io/badge/License-AGPL%203.0-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
+This is a **community-maintained fork** of the original ProtégéVOWL plugin (Visual Ontology Modeling Language viewer inside Protégé).
+
+### Why this fork exists
+
+The original project website http://vowl.visualdataweb.org/ has been defaced and is now permanently redirecting to a gambling site (as of 2025).  
+The original GitHub repository https://github.com/VisualDataWeb/ProtegeVOWL contains only source code — **no pre-built JAR releases were ever published**.
+
+Because many people still need VOWL visualization inside Protégé desktop, this fork provides:
+
+- Ready-to-download JAR files in GitHub Releases
+- Automated builds via GitHub Actions
+- Minor fixes to make it compile and run smoothly on modern Protégé 5.6+ and Java 11–21
+- Up-to-date build instructions
+
+### Download (Latest Release)
+
+Go to → https://github.com/yourusername/ProtegeVOWL/releases/latest  
+Download `ProtegeVOWL-<version>.jar` and drop it into your Protégé `plugins/` folder.
+
+### Quick Installation
+
+1. Download the latest `ProtegeVOWL-*.jar` from the Releases page.
+2. Copy it to `<Protégé-installation-folder>/plugins/`
+3. (Re)start Protégé
+4. Go to **Window → Tabs → VOWL** to enable the tab
+
+### Building from Source (if you prefer)
+
+```bash
+git clone https://github.com/yourusername/ProtegeVOWL.git
+cd ProtegeVOWL
+mvn clean package
+
+
+___
+
+
+
 ProtégéVOWL 
 ===========
 
