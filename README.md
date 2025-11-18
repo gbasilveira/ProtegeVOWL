@@ -21,7 +21,7 @@ Because many people still need VOWL visualization inside Protégé desktop, this
 ### Download (Latest Release)
 
 Go to → https://github.com/gbasilveira/ProtegeVOWL/releases/latest  
-Download `ProtegeVOWL-<version>.jar` and drop it into your Protégé `plugins/` folder.
+Download `target/vowl-0.1.4-SNAPSHOT.jar` and drop it into your Protégé `plugins/` folder.
 
 ### Quick Installation
 
