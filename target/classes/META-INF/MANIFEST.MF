@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1763501871064
+Build-Jdk: 21.0.9
+Built-By: gbas
+Bundle-Activator: org.protege.editor.core.plugin.DefaultPluginActivator
+Bundle-Category: protege
+Bundle-ClassPath: .,tablelayout-pre-1.0.0.jar,prefuse-pre-2007.jar
+Bundle-Description: a plugin for the Visual Notation for OWL Ontologies
+Bundle-DocURL: http://vowl.visualdataweb.org/v1
+Bundle-ManifestVersion: 2
+Bundle-Name: VOWL Plugin
+Bundle-SymbolicName: org.visualdataweb.vowl.protege;singleton:=true
+Bundle-Vendor: david bold
+Bundle-Version: 0.1.4.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: tablelayout,prefuse
+Embedded-Artifacts: tablelayout-pre-1.0.0.jar;g="tablelayout";a="tablela
+ yout";v="pre-1.0.0",prefuse-pre-2007.jar;g="prefuse";a="prefuse";v="pre
+ -2007"
+Export-Package: org.visualdataweb.vowl.graphModifier;version="0.1.4",org
+ .visualdataweb.vowl.protege;version="0.1.4",org.visualdataweb.vowl.type
+ s;version="0.1.4",org.visualdataweb.vowl.controlView;version="0.1.4";us
+ es:="javax.swing.event",org.visualdataweb.vowl.infoPanel;version="0.1.4
+ ";uses:="javax.swing,javax.swing.event,javax.swing.table",org.visualdat
+ aweb.vowl.rendering;version="0.1.4",org.visualdataweb.vowl.testing;vers
+ ion="0.1.4",org.visualdataweb.vowl.storage;version="0.1.4";uses:="javax
+ .swing,org.visualdataweb.vowl.graphModifier,org.visualdataweb.vowl.rend
+ ering",org.visualdataweb.vowl.languages;version="0.1.4"
+Import-Package: org.apache.log4j,javax.swing,javax.swing.border,javax.sw
+ ing.event,javax.swing.filechooser,javax.swing.table,javax.swing.text,ja
+ vax.swing.tree,org.xml.sax,org.xml.sax.helpers,javax.xml.parsers,com.go
+ ogle.common.base;version="[18.0,19)",org.protege.editor.core.plugin;ver
+ sion="[5.1,6)",org.osgi.framework,javax.swing.colorchooser,javax.swing.
+ plaf,javax.swing.plaf.basic,javax.swing.plaf.metal,javax.swing.plaf.mul
+ ti,javax.swing.plaf.synth,javax.swing.text.html,javax.swing.text.html.p
+ arser,javax.swing.text.rtf,javax.swing.undo,org.w3c.dom,org.w3c.dom.boo
+ tstrap,org.w3c.dom.events,org.w3c.dom.ls,org.xml.sax.ext
+Require-Bundle: org.eclipse.equinox.registry,org.eclipse.equinox.common,
+ org.protege.editor.core.application,org.protege.editor.owl,org.semantic
+ web.owl.owlapi
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.2.0.201605172007
